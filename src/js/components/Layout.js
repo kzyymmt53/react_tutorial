@@ -8,7 +8,8 @@ export default class Layout extends React.Component {
     const title = "Welcome Test";
     return (
 	<div>
-	    <Header name={"some string"} title={title} />
+	    <Header title={title} />
+	    <Header title={"Thank you"} />
             <Footer />
         </div>
     );

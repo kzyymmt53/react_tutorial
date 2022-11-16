@@ -6,7 +6,7 @@ export default class Header extends React.Component {
     console.log(this.props);
     return (
        <header>
-          <Title />
+          <Title title={this.props.title} />
        </header>
     );
   }
